@@ -1,0 +1,24 @@
+ul {
+    
+    li {
+        display: flex;
+        justify-content: center; 
+        border-style: solid;
+        border-color: grey;
+        border-radius: 1px;
+        margin: 0.5rem;
+        font-size: large;
+    }
+}
+
+ul {
+    li{
+        span {
+            margin-right: 1rem;
+        }
+    }
+}
+
+.done {
+    text-decoration: line-through;
+}
