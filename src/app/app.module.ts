@@ -5,12 +5,14 @@ import { AppComponent } from './app.component';
 import { TodoComponent } from './todo/todo.component';
 import { InputFormComponent } from './input-form/input-form.component';
 import { FormsModule } from '@angular/forms';
+import { SearchTodo } from './shared/searvch.pipe';
 
 @NgModule({
   declarations: [
     AppComponent,
     TodoComponent,
-    InputFormComponent
+    InputFormComponent,
+    SearchTodo
   ],
   imports: [
     BrowserModule,

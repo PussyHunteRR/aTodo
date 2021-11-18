@@ -3,10 +3,10 @@ import { Todo } from './todo.service'
 
 
 @Pipe({
-    name: 'todoSearch'
+    name: 'todosFilter'
 })
 
-export class searchTodo implements PipeTransform {
+export class SearchTodo implements PipeTransform {
     transform(todos: Todo[], searchItem: string = ''): Todo[] {
         if (!searchItem.trim()) {
             return todos

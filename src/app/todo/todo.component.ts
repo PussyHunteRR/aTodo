@@ -10,6 +10,7 @@ import { TodoService } from './../shared/todo.service';
 export class TodoComponent implements OnInit {
 
   public loading: boolean = true;
+  public todosSearch: string = ''
 
   constructor(public todoService: TodoService){ }
 
